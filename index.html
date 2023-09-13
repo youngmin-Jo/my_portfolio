@@ -1,228 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SEO -->
-    <title>YoungMin&#39;s portfolio</title>
-    <meta 
-    name="description" 
-    content="Protfolio for world-renowned software engineer YoungMin" />
-    <meta name="author" content="YoungMin" />
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <!-- OG (Open Graph Data) -->
-    <meta property="og:title" content="YoungMin portfolio" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="배포후 생성된 URL">
-    <meta property="og:image" content="배포후 이미지">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- SEO -->
+        <title>YoungMin&#39;s portfolio</title>
+        <meta
+            name="description"
+            content="Protfolio for world-renowned software engineer YoungMin"/>
+        <meta name="author" content="YoungMin"/>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <!-- OG (Open Graph Data) -->
+        <meta property="og:title" content="YoungMin portfolio"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="배포후 생성된 URL">
+        <meta property="og:image" content="배포후 이미지">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/176450e32e.js" crossorigin="anonymous"></script>
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Javascript -->
-    <script src="src/main.js" defer></script>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin"/>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+            rel="stylesheet"/>
 
-</head>
-<body>
-    <!-- Header -->
-    <header>
-        <div>
-            <!-- alt 대체글자 -->
-            <img src="images/favicon.ico" alt="logo" />
-            <h1><a href="#">YoungMin</a></h1>
-        </div>
-        <nav>
-            <!-- ul>(li>a)*5 -->
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#work">my work</a></li>
-                <li><a href="#testimonial">Testimonial</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Main -->
-    <main>
-        <!-- Home -->
-        <section id="home">
-            <img src="images/profile.jpg" alt="YoungMin's profile" />
-            <h2>Hello I&#39;m Programmer, YoungMin</h2>
-            <p>A software enginner currently residing in Goyang-si, Korea</p>
-            <a href="#contact">Contact Me</a>
-        </section>
-        <!-- About -->
-        <section id="about">
-            <h2>About me</h2>
-            <p>어필 문장</p>
-            <ul>
-                <li>
-                    <i class="fa-brands fa-html5"></i>
-                    <p>Front-end</p>
-                    <p>HTML, CSS, Javascript, TypeScript, React, Web APIs</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-mobile"></i>
-                    <p>Mobile</p>
-                    <p>Android, React Navtive, Flutter, Java</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-server"></i>
-                    <p>Back-end</p>
-                    <p>Javascript, Node.js, PHP, Rest APIs, GraphQL</p>
-                </li>
-            </ul>
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/176450e32e.js" crossorigin="anonymous"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css"/>
+        <!-- Javascript -->
+        <script src="src/main.js" defer="defer"></script>
 
-            <ul>
-                <li><img src="images/jobs/google.png" alt="google logo">
-                <div>
-                    <p>Google as Senior Software Enginner</p>
-                    <p>2019 0ct - Unitil now</p>
-                </div>
-            </li>
-                <li>
-                    <img src="images/jobs/samsung.png" alt="samsung logo">
-                    <div>
-                        <p>Samsung as Software Enginner</p>
-                        <p>2014 Sept - 2019 0ct</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
-        <!-- Skills -->
-        <section id="skills">
-            <h2>My Skills</h2>
-            <p>Skills & Attributes</p>
-            <!-- lorem 랜덤 문장 -->
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus suscipit facere veritatis quisquam optio quis dolorem, eveniet harum quod. Voluptatibus eveniet exercitationem minima ad, ea dolor eum ipsa. Tempora, vero!</p>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
             <div>
-                <section>
-                    <h3>Coding Skills</h3>
-                    <ul>
-                        <li><div><span>HTML</span><span>98%</span></div><div style="width: 98%;"></div></li>
-                        <li>
-                            <div><span>CSS</span><span>90%</span></div><div style="width: 90%;"></div>
-                        </li>
-                        <li>
-                            <div><span>Javascript</span><span>70%</span></div><div style="width: 70%;"></div>
-                        </li>
-                        <li>
-                            <div><span>TypeScript</span><span>80%</span></div><div style="width: 80%;"></div>
-                        </li>
-                        <li>
-                            <div><span>React</span><span>80%</span></div><div style="width: 80%;"></div>
-                        </li>
-                        <li>
-                            <div><span>NodeJS</span><span>68%</span></div><div style="width: 68%;"></div>
-                        </li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>Visual Studio Code</li>
-                        <li>Intellij</li>
-                        <li>Android Studio Code</li>
-                        <li>iOS development tools</li>
-                        <li>Sketch app</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3>Etc</h3>
-                    <ul>
-                        <li>Git</li>
-                        <li>Scrum Master</li>
-                        <li>Math</li>
-                    </ul>
-                </section>
+                <!-- alt 대체글자 -->
+                <img src="images/favicon.ico" alt="logo"/>
+                <h1>
+                    <a href="#">YoungMin</a>
+                </h1>
             </div>
-        </section>
-        <!-- Work -->
-        <section id="work">
-            <h2>My Work</h2>
-            <p>Projects</p>
-            <ul>
-                <li><button>All <span>8</span></button></li>
-                <li><button>Front-end <span>3</span></button></li>
-                <li><button>Back-end <span>3</span></button></li>
-                <li><button>Mobile <span>2</span></button></li>
-            </ul>
-            <ul>
-                <li><a href="#" target="_blank">
-                    <img src="images/projects/project1.webp" alt="project1">
-                    <div>
-                        <h3>Project #1</h3>
-                        <p>Clone Coding with HTML, CSS</p>
-                    </div>
-                </a></li>
-                <li><a href="#" target="_blank">
-                    <img src="images/projects/project2.webp" alt="project2">
-                    <div>
-                        <h3>Project #2</h3>
-                        <p>Clone Coding with HTML, CSS</p>
-                    </div>
-                </a></li>
-                <li><a href="#" target="_blank">
-                    <img src="images/projects/project3.webp" alt="project3">
-                    <div>
-                        <h3>Project #3</h3>
-                        <p>Clone Coding with HTML, CSS</p>
-                    </div>
-                </a></li>
-                <li><a href="#" target="_blank">
-                    <img src="images/projects/project4.webp" alt="project4">
-                    <div>
-                        <h3>Project #4</h3>
-                        <p>Clone Coding with HTML, CSS</p>
-                    </div>
-                </a></li>
-                <li><a href="#" target="_blank">
-                    <img src="images/projects/project5.webp" alt="project5">
-                    <div>
-                        <h3>Project #5</h3>
-                        <p>Clone Coding with HTML, CSS</p>
-                    </div>
-                </a></li>
-                <li><a href="#" target="_blank">
-                    <img src="images/projects/project6.webp" alt="project6">
-                    <div>
-                        <h3>Project #6</h3>
-                        <p>Clone Coding with HTML, CSS</p>
-                    </div>
-                </a></li>
-                <li><a href="#" target="_blank">
-                    <img src="images/projects/project7.webp" alt="project7">
-                    <div>
-                        <h3>Project #7</h3>
-                        <p>Clone Coding with HTML, CSS</p>
-                    </div>
-                </a></li>
-                <li><a href="#" target="_blank">
-                    <img src="images/projects/project8.webp" alt="project8">
-                    <div>
-                        <h3>Project #8</h3>
-                        <p>Clone Coding with HTML, CSS</p>
-                    </div>
-                </a></li>
-            </ul>
-        </section>
-        <!-- Testimonials -->
-        <section id="testimonial"></section>
-        <!-- contact -->
-        <section id="contact"></section>
-        <!-- Arrow up -->
-        <aside></aside>
-    </main>
-    <!-- footer -->
-    <footer>
+            <nav>
+                <!-- ul>(li>a)*5 -->
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#work">my work</a>
+                    </li>
+                    <li>
+                        <a href="#testimonial">Testimonial</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Main -->
+        <main>
+            <!-- Home -->
+            <section id="home">
+                <img src="images/profile.jpg" alt="YoungMin's profile"/>
+                <h2>Hello I&#39;m Programmer, YoungMin</h2>
+                <p>A software enginner currently residing in Goyang-si, Korea</p>
+                <a href="#contact">Contact Me</a>
+            </section>
+            <!-- About -->
+            <section id="about">
+                <h2>About me</h2>
+                <p>어필 문장</p>
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>Front-end</p>
+                        <p>HTML, CSS, Javascript, TypeScript, React, Web APIs</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-mobile"></i>
+                        <p>Mobile</p>
+                        <p>Android, React Navtive, Flutter, Java</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-server"></i>
+                        <p>Back-end</p>
+                        <p>Javascript, Node.js, PHP, Rest APIs, GraphQL</p>
+                    </li>
+                </ul>
 
-    </footer>
-</body>
+                <ul>
+                    <li><img src="images/jobs/google.png" alt="google logo">
+                        <div>
+                            <p>Google as Senior Software Enginner</p>
+                            <p>2019 0ct - Unitil now</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/jobs/samsung.png" alt="samsung logo">
+                        <div>
+                            <p>Samsung as Software Enginner</p>
+                            <p>2014 Sept - 2019 0ct</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <!-- Skills -->
+            <section id="skills">
+                <h2>My Skills</h2>
+                <p>Skills & Attributes</p>
+                <!-- lorem 랜덤 문장 -->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus suscipit
+                    facere veritatis quisquam optio quis dolorem, eveniet harum quod. Voluptatibus
+                    eveniet exercitationem minima ad, ea dolor eum ipsa. Tempora, vero!</p>
+                <div>
+                    <section>
+                        <h3>Coding Skills</h3>
+                        <ul>
+                            <li>
+                                <div>
+                                    <span>HTML</span><span>98%</span></div>
+                                <div style="width: 98%;"></div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>CSS</span><span>90%</span></div>
+                                <div style="width: 90%;"></div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>Javascript</span><span>70%</span></div>
+                                <div style="width: 70%;"></div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>TypeScript</span><span>80%</span></div>
+                                <div style="width: 80%;"></div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>React</span><span>80%</span></div>
+                                <div style="width: 80%;"></div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span>NodeJS</span><span>68%</span></div>
+                                <div style="width: 68%;"></div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>Visual Studio Code</li>
+                            <li>Intellij</li>
+                            <li>Android Studio Code</li>
+                            <li>iOS development tools</li>
+                            <li>Sketch app</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Etc</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>Scrum Master</li>
+                            <li>Math</li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+            <!-- Work -->
+            <section id="work">
+                <h2>My Work</h2>
+                <p>Projects</p>
+                <ul>
+                    <li>
+                        <button>All
+                            <span>8</span></button>
+                    </li>
+                    <li>
+                        <button>Front-end
+                            <span>3</span></button>
+                    </li>
+                    <li>
+                        <button>Back-end
+                            <span>3</span></button>
+                    </li>
+                    <li>
+                        <button>Mobile
+                            <span>2</span></button>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/projects/project1.webp" alt="project1">
+                            <div>
+                                <h3>Project #1</h3>
+                                <p>Clone Coding with HTML, CSS</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/projects/project2.webp" alt="project2">
+                            <div>
+                                <h3>Project #2</h3>
+                                <p>Clone Coding with HTML, CSS</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/projects/project3.webp" alt="project3">
+                            <div>
+                                <h3>Project #3</h3>
+                                <p>Clone Coding with HTML, CSS</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/projects/project4.webp" alt="project4">
+                            <div>
+                                <h3>Project #4</h3>
+                                <p>Clone Coding with HTML, CSS</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/projects/project5.webp" alt="project5">
+                            <div>
+                                <h3>Project #5</h3>
+                                <p>Clone Coding with HTML, CSS</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/projects/project6.webp" alt="project6">
+                            <div>
+                                <h3>Project #6</h3>
+                                <p>Clone Coding with HTML, CSS</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/projects/project7.webp" alt="project7">
+                            <div>
+                                <h3>Project #7</h3>
+                                <p>Clone Coding with HTML, CSS</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank">
+                            <img src="images/projects/project8.webp" alt="project8">
+                            <div>
+                                <h3>Project #8</h3>
+                                <p>Clone Coding with HTML, CSS</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- Testimonials -->
+            <section id="testimonial">
+                <h2>Testimonial</h2>
+                <p>See what they say about me</p>
+                <ul>
+                    <li><img src="images/testimonials/people1.webp" alt="people1">
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, repellat
+                            eos, sit voluptas ea quidem dolorem ad necessitatibus quam rem similique iure
+                            nostrum cupiditate nemo libero atque, voluptatum explicabo dicta!</div>
+                        <p>
+                            <a href="#">James Kim</a>
+                            /Google
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/testimonials/people2.webp" alt="people2">
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab minima
+                            fuga consequuntur sit accusantium possimus itaque provident laboriosam eum vel
+                            veniam cum at odio saepe modi ut, eius facilis.
+                        </div>
+                        <p>
+                            <a href="#">Anna Jin</a>
+                            /Naver
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/testimonials/people3.webp" alt="people3">
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto hic ducimus facere numquam fuga reiciendis eligendi, cupiditate totam excepturi quas enim laboriosam doloribus deleniti ratione voluptatibus laborum? Aperiam, qui quaerat.
+                        </div>
+                        <p>
+                            <a href="#">YoungMin</a>
+                            /Kakao
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <!-- contact -->
+            <section id="contact"></section>
+            <!-- Arrow up -->
+            <aside></aside>
+        </main>
+        <!-- footer -->
+        <footer></footer>
+    </body>
+
 </html>
