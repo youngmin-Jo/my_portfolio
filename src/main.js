@@ -1,3 +1,6 @@
+//use strict를 선언하면 좀 더 안전한 코드를 작성하게 됨. 기존 자바스크립트의 애매한 문법들은 오류를 뱉기 때문에 좀 더 정확한 코드를 작성할 수 있음
+'use strict';
+
 //Header에 페이지 아래로 스크롤시 다크 스타일링 적용
 const header = document.querySelector('.header');
 // header의 높이를 정의
