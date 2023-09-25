@@ -1,5 +1,7 @@
 'use strict';
 
+// https://www.typeitjs.com/docs/vanilla/installation/
+
 new TypeIt('.home__title--strong',{
     loop: true, //반복
     speed: 100, //타자 속도
